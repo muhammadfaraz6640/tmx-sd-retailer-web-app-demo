@@ -27700,7 +27700,7 @@ case 1:return P.o(q,r)}})
 return P.p($async$v4,r)},
 H1:function(a,b,c){var s=0,r=P.q(t.Ni),q,p
 var $async$H1=P.m(function(d,e){if(d===1)return P.n(e,r)
-while(true)switch(s){case 0:V.U_("post",a,b,C.c.B(a,"https://uat-auth.tlxmobility.com/")?"":c)
+while(true)switch(s){case 0:V.U_("post",a,b,C.c.B(a,"https://gpp-auth.tlxmobility.com/")?"":c)
 P.aH("Url: "+a)
 P.aH("Headers: "+V.TZ(b).j(0))
 P.aH("Body: "+c)
@@ -94665,7 +94665,7 @@ return P.S(["Id",s.b,"CategoryName",s.c,"CategoryDesc",s.d,"ImageName",s.e,"TagC
 Z.apg.prototype={
 $1:function(a){var s,r=J.U(a),q=r.h(a,"Id"),p=r.h(a,"CategoryName"),o=r.h(a,"CategoryDesc"),n=r.h(a,"ImageName")
 H.d(n)
-s="https://tlxsduat.blob.core.windows.net/brand-images/customer-app-categories/"+H.d($.aXU)+"/"+H.d(n)
+s="https://tlxsdprod.blob.core.windows.net/brand-images/customer-app-categories/"+H.d($.aXU)+"/"+H.d(n)
 return new Z.qT(q,p,o,s,r.h(a,"TagCode"),H.b([],t.tZ))},
 $S:748}
 M.ft.prototype={
@@ -99023,7 +99023,7 @@ while(true)switch(s){case 0:s=3
 return P.j($.dH().f5(),$async$uo)
 case 3:o=c
 s=4
-return P.j(V.lY(C.c.M("https://uat-api.tlxmobility.com/api/v1/User/",a),o),$async$uo)
+return P.j(V.lY(C.c.M("https://gpp-api.tlxmobility.com/api/v1/User/",a),o),$async$uo)
 case 4:n=c
 q=p.un(B.eT(U.eS(n.e).c.a.h(0,"charset")).b6(0,n.x),t.Ts)
 s=1
@@ -99033,7 +99033,7 @@ return P.p($async$uo,r)},
 kB:function(){var s=0,r=P.q(t.Ta),q,p,o,n,m,l
 var $async$kB=P.m(function(a,b){if(a===1)return P.n(b,r)
 while(true)switch(s){case 0:m=V
-l="https://uat-api.tlxmobility.com/api/v1/Privileges/GetUserPrivileges"
+l="https://gpp-api.tlxmobility.com/api/v1/Privileges/GetUserPrivileges"
 s=4
 return P.j($.dH().f5(),$async$kB)
 case 4:s=3
@@ -99050,7 +99050,7 @@ return P.p($async$kB,r)},
 kv:function(){var s=0,r=P.q(t.XF),q,p=this,o,n,m
 var $async$kv=P.m(function(a,b){if(a===1)return P.n(b,r)
 while(true)switch(s){case 0:n=V
-m="https://uat-api.tlxmobility.com/api/v1/masterdata/downloaddefaultdata"
+m="https://gpp-api.tlxmobility.com/api/v1/masterdata/downloaddefaultdata"
 s=4
 return P.j($.dH().f5(),$async$kv)
 case 4:s=3
@@ -99064,7 +99064,7 @@ return P.p($async$kv,r)},
 dF:function(){var s=0,r=P.q(t.eQ),q,p=this,o,n,m
 var $async$dF=P.m(function(a,b){if(a===1)return P.n(b,r)
 while(true)switch(s){case 0:n=V
-m="https://uat-api.tlxmobility.com/api/v2/retailer/downloadmasterdata"
+m="https://gpp-api.tlxmobility.com/api/v2/retailer/downloadmasterdata"
 s=4
 return P.j($.dH().f5(),$async$dF)
 case 4:s=3
@@ -99078,7 +99078,7 @@ return P.p($async$dF,r)},
 kz:function(){var s=0,r=P.q(t.Hu),q,p,o,n,m,l
 var $async$kz=P.m(function(a,b){if(a===1)return P.n(b,r)
 while(true)switch(s){case 0:m=V
-l="https://uat-api.tlxmobility.com/api/v1/retailer/GetUnitPricelistByType"
+l="https://gpp-api.tlxmobility.com/api/v1/retailer/GetUnitPricelistByType"
 s=4
 return P.j($.dH().f5(),$async$kz)
 case 4:s=3
@@ -99100,7 +99100,7 @@ s=7
 return P.j($.dH().f5(),$async$uj)
 case 7:l=d
 s=8
-return P.j(V.lY("https://uat-api.tlxmobility.com/api/"+("v1/Retailer/GetOrdersByUserId?startDate="+a+"&endDate="+b),l),$async$uj)
+return P.j(V.lY("https://gpp-api.tlxmobility.com/api/"+("v1/Retailer/GetOrdersByUserId?startDate="+a+"&endDate="+b),l),$async$uj)
 case 8:k=d
 g=k
 j=C.M.b6(0,B.eT(U.eS(g.e).c.a.h(0,"charset")).b6(0,g.x))
@@ -99131,7 +99131,7 @@ s=7
 return P.j($.dH().f5(),$async$fm)
 case 7:l=c
 s=8
-return P.j(V.v4("https://uat-api.tlxmobility.com/api/v1/scheme/GetApplicableSelectableSchemes",l,a),$async$fm)
+return P.j(V.v4("https://gpp-api.tlxmobility.com/api/v1/scheme/GetApplicableSelectableSchemes",l,a),$async$fm)
 case 8:k=c
 g=k
 j=C.M.b6(0,B.eT(U.eS(g.e).c.a.h(0,"charset")).b6(0,g.x))
@@ -99157,7 +99157,7 @@ return P.p($async$fm,r)},
 l1:function(a){var s=0,r=P.q(t.Aj),q,p,o,n,m,l
 var $async$l1=P.m(function(b,c){if(b===1)return P.n(c,r)
 while(true)switch(s){case 0:m=V
-l="https://uat-api.tlxmobility.com/api/v1/Scheme/CalculateScheme"
+l="https://gpp-api.tlxmobility.com/api/v1/Scheme/CalculateScheme"
 s=4
 return P.j($.dH().f5(),$async$l1)
 case 4:s=3
@@ -99175,7 +99175,7 @@ kA:function(a){return this.a2S(a)},
 a2S:function(a){var s=0,r=P.q(t.RM),q,p,o,n,m,l
 var $async$kA=P.m(function(b,c){if(b===1)return P.n(c,r)
 while(true)switch(s){case 0:m=V
-l="https://uat-api.tlxmobility.com/api/v1/Product/GetProductByList"
+l="https://gpp-api.tlxmobility.com/api/v1/Product/GetProductByList"
 s=4
 return P.j($.dH().f5(),$async$kA)
 case 4:s=3
@@ -99192,7 +99192,7 @@ return P.p($async$kA,r)},
 fw:function(a){var s=0,r=P.q(t.BJ),q,p,o,n,m
 var $async$fw=P.m(function(b,c){if(b===1)return P.n(c,r)
 while(true)switch(s){case 0:n=V
-m="https://uat-api.tlxmobility.com/api/v1/Order"
+m="https://gpp-api.tlxmobility.com/api/v1/Order"
 s=4
 return P.j($.dH().f5(),$async$fw)
 case 4:s=3
@@ -99208,7 +99208,7 @@ return P.p($async$fw,r)},
 h9:function(a){var s=0,r=P.q(t.BJ),q,p,o,n,m
 var $async$h9=P.m(function(b,c){if(b===1)return P.n(c,r)
 while(true)switch(s){case 0:n=V
-m="https://uat-auth.tlxmobility.com/api/Account/ChangeUserPassword"
+m="https://gpp-auth.tlxmobility.com/api/Account/ChangeUserPassword"
 s=4
 return P.j($.dH().f5(),$async$h9)
 case 4:s=3
@@ -99224,7 +99224,7 @@ return P.p($async$h9,r)},
 lj:function(a){var s=0,r=P.q(t.BJ),q,p,o,n,m
 var $async$lj=P.m(function(b,c){if(b===1)return P.n(c,r)
 while(true)switch(s){case 0:n=V
-m="https://uat-api.tlxmobility.com/api/v1/CustomerMaster/ForgotPassword"
+m="https://gpp-api.tlxmobility.com/api/v1/CustomerMaster/ForgotPassword"
 s=4
 return P.j($.dH().f5(),$async$lj)
 case 4:s=3
@@ -99242,7 +99242,7 @@ a3L:function(a){var s=0,r=P.q(t.zg),q,p=2,o,n=[],m=this,l,k,j,i,h,g,f
 var $async$lM=P.m(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return P.j(V.H1("https://uat-api.tlxmobility.com/api/v1/CustomerMaster/SignUp",null,a),$async$lM)
+return P.j(V.H1("https://gpp-api.tlxmobility.com/api/v1/CustomerMaster/SignUp",null,a),$async$lM)
 case 7:l=c
 h=l
 k=C.M.b6(0,B.eT(U.eS(h.e).c.a.h(0,"charset")).b6(0,h.x))
@@ -99273,7 +99273,7 @@ s=7
 return P.j($.dH().f5(),$async$ky)
 case 7:l=c
 s=8
-return P.j(V.lY("https://uat-api.tlxmobility.com/api/"+("v1/Retailer/GetOrderById/"+J.bi(a)),l),$async$ky)
+return P.j(V.lY("https://gpp-api.tlxmobility.com/api/"+("v1/Retailer/GetOrderById/"+J.bi(a)),l),$async$ky)
 case 8:k=c
 i=k
 i=m.un(B.eT(U.eS(i.e).c.a.h(0,"charset")).b6(0,i.x),t.xp)
@@ -99298,7 +99298,7 @@ jX:function(a){return this.aqB(a)},
 aqB:function(a){var s=0,r=P.q(t.Ix),q,p=this,o,n,m
 var $async$jX=P.m(function(b,c){if(b===1)return P.n(c,r)
 while(true)switch(s){case 0:n=V
-m="https://uat-api.tlxmobility.com/api/v1/Configuration/GetAppVersionDetails?app=customer"
+m="https://gpp-api.tlxmobility.com/api/v1/Configuration/GetAppVersionDetails?app=customer"
 s=4
 return P.j($.dH().f5(),$async$jX)
 case 4:s=3
@@ -99345,7 +99345,7 @@ lI:function(a,b){return this.a2a(a,b)},
 a2a:function(a,b){var s=0,r=P.q(t.zg),q,p,o,n
 var $async$lI=P.m(function(c,d){if(c===1)return P.n(d,r)
 while(true)switch(s){case 0:s=3
-return P.j(V.lY("https://uat-api.tlxmobility.com/api/"+C.c.M("v1/CustomerMaster/GetCustomerStatusById/"+a+"/",b),null),$async$lI)
+return P.j(V.lY("https://gpp-api.tlxmobility.com/api/"+C.c.M("v1/CustomerMaster/GetCustomerStatusById/"+a+"/",b),null),$async$lI)
 case 3:p=d
 o=C.M.b6(0,B.eT(U.eS(p.e).c.a.h(0,"charset")).b6(0,p.x))
 n=Q.kf(o,t.X)
@@ -99385,7 +99385,7 @@ C5:function(a){return this.apV(a)},
 apV:function(a){var s=0,r=P.q(t.eO),q,p=this,o,n,m,l,k
 var $async$C5=P.m(function(b,c){if(b===1)return P.n(c,r)
 while(true)switch(s){case 0:s=3
-return P.j(G.b0b(P.e3("https://uat-auth.tlxmobility.com/token",0,null),"username="+a.d+"&password="+a.e+"&grant_type="+a.a+"&client_id="+a.b,null).N2(0,P.cm(0,0,0,0,20)).j5(new B.amw(p)),$async$C5)
+return P.j(G.b0b(P.e3("https://gpp-auth.tlxmobility.com/token",0,null),"username="+a.d+"&password="+a.e+"&grant_type="+a.a+"&client_id="+a.b,null).N2(0,P.cm(0,0,0,0,20)).j5(new B.amw(p)),$async$C5)
 case 3:k=c
 P.aH("oauth: wait is over")
 o=new Q.ej(null,null,null,t.t3)

@@ -61,7 +61,7 @@ const RESOURCES = {
 "assets/assets/velo_banner.jpg": "0c7b48b348d5ce71a4aaf95d08edf57b",
 "assets/FontManifest.json": "c199e0ac790d25d24172253a0e1ba65e",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "753cb43443024b7b09cc9d66ebe71a44",
+"assets/NOTICES": "635acfed8e9673545808fb4fa20fe525",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/easy_localization/i18n/ar-DZ.json": "acc0a8eebb2fcee312764600f7cc41ec",
 "assets/packages/easy_localization/i18n/ar.json": "acc0a8eebb2fcee312764600f7cc41ec",
@@ -75,9 +75,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "b627bafec37ab4cd52101e5b62bd3a8e",
-"/": "b627bafec37ab4cd52101e5b62bd3a8e",
-"main.dart.js": "6400d3437ec84fe19bfc248a801e624e",
+"index.html": "e2175496c5a81f683dbe7cc47b9686bd",
+"/": "e2175496c5a81f683dbe7cc47b9686bd",
+"main.dart.js": "0940240bf200c91e493dd01826b0ecc9",
 "manifest.json": "7d174d0ba2ecd35d4426e5519424158a",
 "version.json": "d873273f49bb25b535d6f8a4a1101cc2"
 };
